@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-19T11:45:47 MST" name="Suite" finished-at="2025-05-19T11:47:20 MST" duration-ms="92552">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc1Runner@5b38c1ec]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc2Runner@480d3575]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc3Runner@f1da57d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc4Runner@194fad1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc5Runner@26abb146]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-05-19T11:45:47 MST" name="Test" finished-at="2025-05-19T11:47:20 MST" duration-ms="92552">
+      <class name="qa.runners.tc3Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:qa.runners.tc3Runner@f1da57d]" started-at="2025-05-19T11:46:47 MST" name="setUpClass" finished-at="2025-05-19T11:46:47 MST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6318ff9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc3Runner@f1da57d]" started-at="2025-05-19T11:46:47 MST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-19T11:47:01 MST" duration-ms="13626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate data at checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test case 3"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:qa.runners.tc3Runner@f1da57d]" started-at="2025-05-19T11:47:01 MST" name="tearDownClass" finished-at="2025-05-19T11:47:01 MST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- qa.runners.tc3Runner -->
+      <class name="qa.runners.tc1Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:qa.runners.tc1Runner@5b38c1ec]" started-at="2025-05-19T11:45:47 MST" name="setUpClass" finished-at="2025-05-19T11:45:48 MST" duration-ms="785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6318ff9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc1Runner@5b38c1ec]" started-at="2025-05-19T11:45:48 MST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-19T11:46:02 MST" duration-ms="14292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the social media urls in footer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test case 1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:qa.runners.tc1Runner@5b38c1ec]" started-at="2025-05-19T11:46:02 MST" name="tearDownClass" finished-at="2025-05-19T11:46:03 MST" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- qa.runners.tc1Runner -->
+      <class name="qa.runners.tc5Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:qa.runners.tc5Runner@26abb146]" started-at="2025-05-19T11:47:10 MST" name="setUpClass" finished-at="2025-05-19T11:47:10 MST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6318ff9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc5Runner@26abb146]" started-at="2025-05-19T11:47:10 MST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-19T11:47:20 MST" duration-ms="9350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate error messages"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test case 5"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:qa.runners.tc5Runner@26abb146]" started-at="2025-05-19T11:47:20 MST" name="tearDownClass" finished-at="2025-05-19T11:47:20 MST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- qa.runners.tc5Runner -->
+      <class name="qa.runners.tc4Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:qa.runners.tc4Runner@194fad1]" started-at="2025-05-19T11:47:01 MST" name="setUpClass" finished-at="2025-05-19T11:47:01 MST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6318ff9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc4Runner@194fad1]" started-at="2025-05-19T11:47:01 MST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-19T11:47:10 MST" duration-ms="9693" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[": Validate hover options, location and UI elements"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test case 4"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at qa.stepDefinitions.tc4StepDefinition.validate_on_home_page(tc4StepDefinition.java:46)
+at ✽.validate "CHANDLER VACATION RENTALS" on home page(file:///C:/Users/mengj/Documents/QA_Projects/OneOak/src/test/resources/featureFiles/TestCase4.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:qa.runners.tc4Runner@194fad1]" started-at="2025-05-19T11:47:10 MST" name="tearDownClass" finished-at="2025-05-19T11:47:10 MST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- qa.runners.tc4Runner -->
+      <class name="qa.runners.tc2Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:qa.runners.tc2Runner@480d3575]" started-at="2025-05-19T11:46:03 MST" name="setUpClass" finished-at="2025-05-19T11:46:03 MST" duration-ms="48" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6318ff9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc2Runner@480d3575]" started-at="2025-05-19T11:46:03 MST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-19T11:46:19 MST" duration-ms="16046" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate filters and sort options for search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test case 2"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at qa.stepDefinitions.tc2StepDefinition.validate_first_entry_name_is(tc2StepDefinition.java:62)
+at ✽.validate first entry name is "A Wave From It All"(file:///C:/Users/mengj/Documents/QA_Projects/OneOak/src/test/resources/featureFiles/TestCase2.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc2Runner@480d3575]" started-at="2025-05-19T11:46:19 MST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-19T11:46:33 MST" duration-ms="13576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate filters and sort options for search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test case 2"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.tc2Runner@480d3575]" started-at="2025-05-19T11:46:33 MST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-19T11:46:47 MST" duration-ms="13744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate filters and sort options for search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test case 2"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:qa.runners.tc2Runner@480d3575]" started-at="2025-05-19T11:46:47 MST" name="tearDownClass" finished-at="2025-05-19T11:46:47 MST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- qa.runners.tc2Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
